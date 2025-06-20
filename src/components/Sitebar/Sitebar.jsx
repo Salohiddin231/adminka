@@ -26,19 +26,19 @@ export default function Sitebar() {
                         </li>
                     </NavLink>
 
-                    <NavLink to='/toorder'>
+                    <NavLink to='/stuff'>
                         <li className="sitebar_pages">
                             <FaBoxOpen />
                         </li>
                     </NavLink>
 
-                    <NavLink to='/toorder'>
+                    <NavLink to='/waiter'>
                         <li className="sitebar_pages">
                             <GrGroup />
                         </li>
                     </NavLink>
 
-                    <NavLink to='/toorder'>
+                    <NavLink to='/table'>
                         <li className="sitebar_pages">
                             <MdOutlineTableBar />
                         </li>

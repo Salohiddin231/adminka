@@ -34,5 +34,10 @@ a {
         background: rgb(244, 204, 70);
         border-radius: 360px;
         color: rgb(255, 255, 255);
+
+        :hover {
+            background: rgba(244, 203, 70, 0.689);
+
+        }
     }
 }
