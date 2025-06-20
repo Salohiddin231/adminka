@@ -5,6 +5,7 @@ import AdminError from '../../modules/AdminError/AdminError'
 import Stuff from '../../modules/Stuff/Stuff'
 import ToOrder from '../../modules/ToOrder/ToOrder'
 import Waiter from '../../modules/Waiter/Waiter'
+import LogIn from '../LogIn/LogIn'
 
 export default function RoutesPage() {
   return (
@@ -16,6 +17,7 @@ export default function RoutesPage() {
         <Route path='/stuff' element={<Stuff />} />
         <Route path='/toorder' element={<ToOrder />} />
         <Route path='/waiter' element={<Waiter />} />
+        <Route path='/login' element={<LogIn />} />
       </Routes>
     </>
   )
